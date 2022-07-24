@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MindtekTestNG">
+    <test name="UI Automation">
+        <groups>
+          <run>
+            <include name="regression"/>
+          </run>
+        </groups>
+        <classes>
+            <class name="tests.BlazeDemoTest"/>
+            <class name="tests.SmartBearTests"/>
+            <class name="tests.SauceDemoApp"/>
+
+        </classes>
+
+    </test>
+</suite>
